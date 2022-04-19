@@ -7,6 +7,7 @@
 }
 a{
 text-decoration: none;
+color: black;
 
 
  
@@ -46,12 +47,13 @@ li:hover{
           /* width: 56px; */
           /* height: 56px; */
           background-color: blue;
-          padding: 8px;
-          font-size: 48px;
+          padding: 5px;
+          font-size: 38px;
           color: white;
           width: 50px;
           margin-left: 20px;
           margin-top: 10px;
+          font-family: "BPG Nino Mtavruli", sans-serif;
          }
 .month{
           font-size: 22px;
@@ -63,6 +65,7 @@ li:hover{
            font-size: 20px;
           margin-left: 20px;
            margin-top: 25px;
+           font-family: "BPG Nino Mtavruli", sans-serif;
  }
  .img4{
            margin-top: 15px;
@@ -89,10 +92,13 @@ li:hover{
 
  }
  .feature-item{
-           width: 570px;
+           width: 500px;
            background-color: #f2f2f2;
            padding: 15px 25px 40px 15px;
            margin-left: 15px;
+           display: inline-block
+           
+
  }
  .title{
            font-size: 22px;
@@ -104,15 +110,48 @@ li:hover{
  .content-img{
            width: 100px;
            margin: auto 60px auto 25px;
-           display: inline block;
-           vertical-align:  bottom;
+           display: inline-block;
+           vertical-align:  bottom;+
            }
  .content-p{
-           display: inline block;
-           width: calc(100% - 185px);
+           display: inline-block;
+           width: calc(100% - 200px);
           vertical-align:  top;
           font-size: 20px;
           line-height: 24px;
-
  }
+ .contact-selection{
+          margin-left: 15px;
+                     
+         background-color: #e6e6e6;
+ }
+ .contact{
+       font-size: 20px;
+       font-family: "BPG Nino Mtavruli" sans-serif;
+       color: #0b41e4;
+       margin-left: 1px;
 
+      
+       }
+.key{
+      color: #808080;    
+}
+.im1{
+          margin-left: 15px;
+          margin-top: 200px;
+
+}
+.im2{
+          margin-left: 35px;  
+}
+.row{
+          margin-top: 5px;
+}
+.map{
+         
+          margin-left: 3px;
+          width: 1000px;
+          margin-top: 15px;
+                    
+          height: 400px;
+}
